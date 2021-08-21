@@ -1,0 +1,97 @@
+<html>
+
+  <head>
+
+    <title>ZITRO CUBES | SOCIAL</title>
+    <link rel="shortcut icon" href="imagenes\icono.ico">
+
+    <style>
+      *{
+        font-size: medium;
+        font-family: arial;
+          text-align: center;
+      }
+
+      .correo, .teamcubik{
+        color: black;
+      }
+
+      .cuerpo{
+        text-align: center;
+      }
+
+      hr{
+        border-color: black;
+      }
+
+      .menu_superior{
+        background-color: #d73c3c;
+      }
+
+      .menu_superior a img{
+        padding: 1%;
+      }
+	  a{
+	  font-size: 22px;
+	  }
+	  body{
+	  background-image:url(imagenes/background%203.png);
+	  background-repeat: no-repeat;
+	  background-size: 100%;
+	  background-position:center;
+	  }
+    </style>
+
+  <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+    </script>
+    
+  </head>
+
+  <body onLoad="MM_preloadImages('imagenes/hNoticiasLogo.png','imagenes/hVsLogo.png','imagenes/hAprenderLogo.png','imagenes/logoMini.png','imagenes/hMiColeccionLogo.png','imagenes/hMusicaLogo.png','imagenes/hSocialLogo.png')">
+
+    <div class="menu_superior" id="menu_superior">  
+    <a href="noticias.html" target="_parent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','imagenes/hNoticiasLogo.png',1)"><img src="imagenes/noticiasLogo.png" alt="NOTICIAS" width="150" height="100" id="Image1"></a>
+    <a href="vs.html" target="_parent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/hVsLogo.png',1)"><img src="imagenes/vsLogo.png" alt="LOGO" width="150" height="100" id="Image12"></a> 
+    <a href="aprender.html" target="_parent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/hAprenderLogo.png',1)"><img src="imagenes/aprenderLogo.png" alt="APRENDER" width="150" height="100" id="Image13"></a> 
+    <a href="index.html" target="_parent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/logoMini.png',1)"><img src="imagenes/logo.png" alt="LOGO" width="100" height="100" id="Image14"></a> 
+    <a href="marcoContenedor.html" target="_parent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/hMiColeccionLogo.png',1)"><img src="imagenes/miColeccionLogo.png" alt="MI COLECCION" width="150" height="100" id="Image15"></a> 
+    <a href="musica.html" target="_parent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/hMusicaLogo.png',1)"><img src="imagenes/musicaLogo.png" alt="MUSICA" width="150" height="100" id="Image16"></a> 
+    <a href="social.html" target="_parent" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/hSocialLogo.png',1)"><img src="imagenes/socialLogo.png" alt="SOCIAL" width="150" height="100" id="Image17"></a> 
+    </div>
+
+    <hr size=5 color="#e1e1e1">
+
+    <div class="cuerpo">
+      <br><br>
+      <a target="_blank" href="https://www.facebook.com/ZitroCubes" title="Enterate primero que nadie"> <img src="imagenes\logoFacebook.png" alt="Facebook" width="400" height="400"></a>
+      <a target="_blank" href="https://www.youtube.com/c/ZitroCubes" title="Observa mis videos"> <img src="imagenes\logoYoutube.png" alt="YouTube" width="400" height="400"></a>
+      <div class="letras">
+        <br><br><br> <a href="mailto: zitrocubes@gmail.com"  title="Enviar correo electronico" class="correo">Enviar Mail</a>
+        <a target="_blank" href="https://www.facebook.com/TeamCubik/" title="El mejor equipo de YouTube" class="teamcubik">Team Cubik</a>
+      </div>
+    </div>
+
+  </body>
+
+</html>
